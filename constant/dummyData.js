@@ -140,11 +140,29 @@ const testimonialsData = [
     }
 ]
 
+const visionData = [
+    {
+        id: 1,
+        title: 'Design your application, product or service',
+        image: localImages?.visionOne,
+        imageAlt: 'Vision Image 1',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    },
+    {
+        id: 2,
+        title: 'Easily manage your business with our tools and services',
+        image: localImages?.visionTwo,
+        imageAlt: 'Vision Image 2',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    }
+];
+
 export {
     sliderData,
     typeEffectData,
     servicesData,
     showcaseData,
     teamData,
-    testimonialsData
+    testimonialsData,
+    visionData
 };

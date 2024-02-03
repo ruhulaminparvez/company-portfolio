@@ -11,4 +11,6 @@ export const localImages = {
     teamThree: require("../public/team/team3.jpg"),
     teamFour: require("../public/team/team4.jpg"),
     contactUs: require("../public/contact/contact.svg"),
+    visionOne: require("../public/vision/vision1.jpeg"),
+    visionTwo: require("../public/vision/vision2.jpg"),
 };
