@@ -17,7 +17,7 @@ const HeroSlider = () => {
     }, []);
     return (
         <Fragment>
-            <section className='w-full flex px-10 mt-5'>
+            <section className='w-full flex px-10 mt-5 bg-white'>
                 <div className='w-1/2 flex items-start flex-col justify-center'>
                     <div className='bg-base-200 flex items-center gap-2 rounded-full p-1'>
                         <button className='bg-white rounded-full p-1 px-2'>We&apos;re hiring</button>

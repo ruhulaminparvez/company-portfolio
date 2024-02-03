@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <section className='px-10 my-10 w-full flex items-start'>
+        <section className='px-10 my-10 w-full flex items-start bg-white'>
             <div className='w-1/3'>
                 <h2 className='text-5xl my-2'>Subscribe to our Newsletter</h2>
 

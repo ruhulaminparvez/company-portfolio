@@ -5,7 +5,7 @@ import { localImages } from '@/utils/localImages';
 
 const ContactUs = () => {
     return (
-        <section className='px-10 my-20 w-full flex items-start'>
+        <section className='px-10 my-20 w-full flex items-start bg-white'>
             <div className='w-1/3'>
                 <h6 className='flex items-center gap-2'>About Us <HiArrowLongRight /></h6>
                 <h2 className='text-3xl my-2'>Get in Touch</h2>

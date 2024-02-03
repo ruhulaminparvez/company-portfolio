@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Vision = () => {
     return (
-        <section className='px-10 py-12'>
+        <section className='px-10 py-12 bg-white'>
             {visionData.map((item, index) => (
                 <div key={index} className={`w-full flex my-12 gap-8 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                     <div className={`w-2/3`}>

@@ -6,7 +6,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const ClientFeedback = () => {
     return (
-        <section className='px-10 mt-20'>
+        <section className='px-10 mt-20 bg-white'>
             <div className='flex items-center flex-col'>
                 <h6 className='flex items-center gap-2'>Testimonials <HiArrowLongRight /></h6>
                 <h2 className='text-3xl my-2'>Hear from Our Clients</h2>
