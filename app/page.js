@@ -17,7 +17,7 @@ export default function Home() {
       <Team />
       <ClientFeedback />
       <ContactUs />
-      {/* <Footer />/ */}
+      <Footer />
     </main>
   );
 }

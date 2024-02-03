@@ -46,7 +46,7 @@ const ContactUs = () => {
                         </div>
                         <textarea placeholder="Message" className="input textarea textarea-bordered w-full"></textarea>
                     </label>
-                    <button className='btn bg-blue-500 text-white hover:bg-blue-600 w-full 0 mt-3'>Send Message</button>
+                    <button className='btn bg-blue-500 text-white hover:bg-blue-600 w-full mt-3'>Send Message</button>
                 </div>
             </div>
             <div className='w-2/3'>
