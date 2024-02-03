@@ -4,7 +4,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 
 const Services = () => {
     return (
-        <section className='mx-10'>
+        <section className='px-10'>
             <div>
                 <h6 className='flex items-center gap-2'>Services <HiArrowLongRight /></h6>
                 <h2 className='text-3xl my-2'>Our Services</h2>

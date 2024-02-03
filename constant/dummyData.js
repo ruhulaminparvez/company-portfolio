@@ -84,4 +84,67 @@ const showcaseData = [
     }
 ];
 
-export { sliderData, typeEffectData, servicesData, showcaseData };
+const teamData = [
+    {
+        id: 1,
+        image: localImages?.teamOne,
+        imageAlt: 'Team Member 1',
+        name: 'John Doe',
+        position: 'CEO',
+        intro: 'Visionary leader dedicated to innovation and fostering team collaboration.'
+    },
+    {
+        id: 2,
+        image: localImages?.teamTwo,
+        imageAlt: 'Team Member 2',
+        name: 'Jane Doe',
+        position: 'Designer',
+        intro: 'Creative designer bringing ideas to life with user-centric modern designs.'
+    },
+    {
+        id: 3,
+        image: localImages?.teamThree,
+        imageAlt: 'Team Member 3',
+        name: 'John Smith',
+        position: 'Developer',
+        intro: 'Innovative coder dedicated to clean, efficient code and solutions.'
+    },
+    {
+        id: 4,
+        image: localImages?.teamFour,
+        imageAlt: 'Team Member 4',
+        name: 'Jane Smith',
+        position: 'Marketing',
+        intro: 'Strategic marketer driving brand awareness with impactful connections.'
+    }
+];
+
+const testimonialsData = [
+    {
+        id: 1,
+        avatar: localImages?.teamOne,
+        avatarAlt: 'Client Avatar One',
+        name: 'John Doe',
+        position: 'CEO',
+        company: 'Company One',
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    },
+    {
+        id: 2,
+        avatar: localImages?.teamFour,
+        avatarAlt: 'Client Avatar Two',
+        name: 'Jane Smith',
+        position: 'Marketing',
+        company: 'Company Two',
+        quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    }
+]
+
+export {
+    sliderData,
+    typeEffectData,
+    servicesData,
+    showcaseData,
+    teamData,
+    testimonialsData
+};

@@ -6,4 +6,9 @@ export const localImages = {
     showcaseOne: require("../public/showcase/project1.webp"),
     showcaseTwo: require("../public/showcase/project2.jpeg"),
     showcaseThree: require("../public/showcase/project3.jpeg"),
+    teamOne: require("../public/team/team1.png"),
+    teamTwo: require("../public/team/team2.jpeg"),
+    teamThree: require("../public/team/team3.jpg"),
+    teamFour: require("../public/team/team4.jpg"),
+    contactUs: require("../public/contact/contact.svg"),
 };
