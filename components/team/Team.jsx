@@ -7,22 +7,22 @@ import { FiInstagram } from "react-icons/fi";
 
 const Team = () => {
     return (
-        <section className='px-10 mt-20 bg-white'>
+        <section className='px-10 pt-20 bg-white'>
             <div className='flex items-center flex-col'>
-                <h6 className='uppercase border-b-color-slate-400 border-b-4'>About Us</h6>
-                <h2 className='text-3xl my-2 text-center'>
+                <h6 className='uppercase border-b-color-slate-400 border-b-4 text-black'>About Us</h6>
+                <h2 className='text-3xl my-2 text-center text-black'>
                     The Talented People Behind the Scenes
                     <br /> of the Organization
                 </h2>
             </div>
-            <div className='grid grid-cols-4 gap-2 my-5'>
+            <div className='grid grid-cols-4 gap-2 py-5'>
                 {teamData.map((data, index) => (
                     <div key={index} className='shadow-md p-1 h-80'>
                         <div className='my-2'>
                             <Image src={data.image} alt={data.imageAlt} className='w-32 h-32 object-cover rounded-full mx-auto' />
                         </div>
                         <div className='px-5'>
-                            <h3 className='text-xl text-center'>{data.name}</h3>
+                            <h3 className='text-xl text-center text-black'>{data.name}</h3>
                             <h6 className='text-center text-slate-500'>{data.position}</h6>
                             <p className='text-center text-slate-400'>{data.intro}</p>
                         </div>

@@ -6,10 +6,10 @@ import Link from 'next/link';
 
 const Showcase = () => {
     return (
-        <section className='px-10 mt-20 bg-white'>
+        <section className='px-10 pt-20 bg-white'>
             <div className='flex items-center flex-col'>
-                <h6 className='uppercase border-b-color-slate-400 border-b-4'>Works</h6>
-                <h2 className='text-3xl my-2'>Discover our Projects and Works</h2>
+                <h6 className='uppercase border-b-color-slate-400 border-b-4 text-black'>Works</h6>
+                <h2 className='text-3xl my-2 text-black'>Discover our Projects and Works</h2>
                 <p className='text-slate-400 text-xl'>
                     We have worked with various clients and companies to deliver the best results.
                 </p>
@@ -20,8 +20,8 @@ const Showcase = () => {
                         <Image src={data.image} alt={data.imageAlt} className='w-full h-72 object-cover rounded-md' />
                         <div className='py-4 px-3 flex items-end justify-between'>
                             <div>
-                                <span className='text-sm'>{data.category}</span>
-                                <h4 className='text-xl'>{data.title}</h4>
+                                <span className='text-sm text-black'>{data.category}</span>
+                                <h4 className='text-xl text-black'>{data.title}</h4>
                             </div>
                             <div className='flex items-center justify-between'>
                                 <Link href={data.link} className='flex items-center gap-2 text-slate-400 hover:text-slate-500'>

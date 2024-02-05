@@ -29,7 +29,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1">
                     {['Home', 'Services', 'Projects', 'About', 'Contact'].map((item, index) => (
                         <li key={index}>
-                            <Link href="#" className="menu-item text-xl mx-1">{item}</Link>
+                            <Link href="#" className="menu-item text-xl text-black mx-1">{item}</Link>
                         </li>
                     ))}
                 </ul>

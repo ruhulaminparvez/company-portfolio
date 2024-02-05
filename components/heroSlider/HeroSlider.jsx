@@ -17,18 +17,18 @@ const HeroSlider = () => {
     }, []);
     return (
         <Fragment>
-            <section className='w-full flex px-10 mt-5 bg-white'>
+            <section className='w-full flex px-10 pt-5 bg-white'>
                 <div className='w-1/2 flex items-start flex-col justify-center'>
                     <div className='bg-base-200 flex items-center gap-2 rounded-full p-1'>
-                        <button className='bg-white rounded-full p-1 px-2'>We&apos;re hiring</button>
-                        <button className='flex items-center gap-2'>Join our team
+                        <button className='bg-white rounded-full p-1 px-2 text-black'>We&apos;re hiring</button>
+                        <button className='flex items-center gap-2 text-black'>Join our team
                             <span>
                                 <HiArrowLongRight />
                             </span>
                         </button>
                     </div>
-                    <div className='flex flex-col gap-5 mt-5'>
-                        <h1 className='text-6xl font-bold'>
+                    <div className='flex flex-col gap-5 pt-5'>
+                        <h1 className='text-6xl font-bold text-black'>
                             <TypeEffect arrList={typeEffectData} />
                             into Seamless Experiences
                         </h1>

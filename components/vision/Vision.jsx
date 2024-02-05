@@ -11,9 +11,9 @@ const Vision = () => {
                 <div key={index} className={`w-full flex my-12 gap-8 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                     <div className={`w-2/3`}>
                         <div className='w-full'>
-                            <h3 className='text-3xl'>{item.title}</h3>
+                            <h3 className='text-3xl text-black'>{item.title}</h3>
                         </div>
-                        <p className='text-md my-6 text-justify pr-10'>{item.description}</p>
+                        <p className='text-md my-6 text-justify pr-10 text-black'>{item.description}</p>
                         <div className='flex items-center justify-between'>
                             <Link href='#' className='flex items-center gap-2 text-blue-400 hover:text-blue-500'>
                                 <span className='underline text-md'>Lets Get Started</span>
