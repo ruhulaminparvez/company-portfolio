@@ -27,4 +27,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .custom-hero-btn {
+    @apply bg-white rounded-full p-1 px-2 text-black;
+  }
+
+  .custom-hero-btn:hover {
+    @apply bg-transparent;
+  } 
 }

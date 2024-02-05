@@ -17,26 +17,26 @@ const HeroSlider = () => {
     }, []);
     return (
         <Fragment>
-            <section className='w-full flex px-10 pt-5 bg-white'>
-                <div className='w-1/2 flex items-start flex-col justify-center'>
+            <section className='w-full flex flex-col lg:flex-row px-5 lg:px-20 pt-16 lg:pt-5 bg-white'>
+                <div className='w-full lg:w-1/2 flex items-start flex-col justify-center'>
                     <div className='bg-base-200 flex items-center gap-2 rounded-full p-1'>
-                        <button className='bg-white rounded-full p-1 px-2 text-black'>We&apos;re hiring</button>
-                        <button className='flex items-center gap-2 text-black'>Join our team
+                        <button className='custom-hero-btn'>We&apos;re hiring</button>
+                        <button className='flex items-center gap-2 text-black hover:custom-hero-btn transition-all duration-300'>Join our team
                             <span>
                                 <HiArrowLongRight />
                             </span>
                         </button>
                     </div>
-                    <div className='flex flex-col gap-5 pt-5'>
-                        <h1 className='text-6xl font-bold text-black'>
+                    <div className='flex flex-col gap-6 pt-5'>
+                        <h1 className='text-3xl lg:text-6xl font-bold text-black'>
                             <TypeEffect arrList={typeEffectData} />
                             into Seamless Experiences
                         </h1>
-                        <p className='text-slate-400 text-xl'>Your trusted partner for web, app development, and top-notch creative solutions.</p>
-                        <button className='btn bg-blue-500 text-white hover:bg-blue-600 w-fit'>Get Started <HiArrowLongRight /></button>
+                        <p className='text-slate-400 text-md lg:text-xl'>Your trusted partner for web, app development, and top-notch creative solutions.</p>
+                        <button className='btn bg-blue-500 text-white hover:bg-transparent hover:border-blue-500 hover:text-blue-500 w-fit'>Get Started <HiArrowLongRight /></button>
                     </div>
                 </div>
-                <div className='w-1/2 carousel'>
+                <div className='w-full lg:w-1/2 carousel'>
                     {sliderData?.map((item, index) => (
                         <div
                             key={index + 1}

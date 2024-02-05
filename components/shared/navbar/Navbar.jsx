@@ -19,7 +19,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`navbar px-10 ${scrollY > 100 ? 'shadow-md' : ''} sticky top-0 bg-white z-10`}>
+        <nav className={`navbar px-5 lg:px-20 ${scrollY > 100 ? 'shadow-md' : ''} sticky top-0 bg-white z-10`}>
             <div className="navbar-start">
                 <div className='rounded-full w-fit'>
                     <SiReactivex className='text-5xl text-blue-500' />
