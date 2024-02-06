@@ -15,7 +15,7 @@ const Team = () => {
                     <br className='lg:inline-block hidden' /> of the Organization
                 </h2>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-2 py-8 lg:py-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-5 py-8 lg:py-8'>
                 {teamData.map((data, index) => (
                     <div key={index} className='shadow-md p-1 h-80'>
                         <div className='my-2'>

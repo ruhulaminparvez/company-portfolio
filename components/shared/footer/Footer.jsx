@@ -1,6 +1,11 @@
 import React from 'react';
 import { MdArrowForwardIos } from "react-icons/md";
 import Link from 'next/link';
+import { FiGithub } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 
 const Footer = () => {
     return (
@@ -19,31 +24,38 @@ const Footer = () => {
             <div className='w-full lg:w-2/3'>
                 <div className='grid grid-cols-3 my-8 lg:my-2'>
                     <div className='mx-auto'>
-                        <h4 className='text-2xl mb-2 text-black'>Company</h4>
+                        <h4 className='text-xl lg:text-2xl mb-2 text-black h-14 lg:h-10'>Social Links</h4>
                         <ul>
-                            {['Home', 'Services', 'Projects', 'About', 'Contact'].map((item, index) => (
-                                <li key={index}>
-                                    <Link href="#" className="menu-item text-md mx-1 text-slate-400">{item}</Link>
+                            {[
+                                { social: 'Facebook', icon: <FiFacebook />, link: '#' },
+                                { social: 'Twitter', icon: <FiTwitter />, link: '#' },
+                                { social: 'Instagram', icon: <FiInstagram />, link: '#' },
+                                { social: 'LinkedIn', icon: <FiLinkedin />, link: '#' },
+                                { social: 'Github', icon: <FiGithub />, link: '#' }
+                            ].map((item, index) => (
+                                <li key={index} className='flex items-center gap-2 text-slate-400 hover:text-slate-700 hover-scale'>
+                                    <span>{item.icon}</span>
+                                    <Link href={item.link} className="menu-item text-md mx-1">{item.social}</Link>
                                 </li>
                             ))}
                         </ul>
                     </div>
                     <div className='mx-auto'>
-                        <h4 className='text-2xl mb-2 text-black'>Company</h4>
+                        <h4 className='text-xl lg:text-2xl mb-2 text-black h-14 lg:h-10'>Company</h4>
                         <ul>
                             {['Home', 'Services', 'Projects', 'About', 'Contact'].map((item, index) => (
-                                <li key={index}>
-                                    <Link href="#" className="menu-item text-md mx-1 text-slate-400">{item}</Link>
+                                <li key={index} className='hover-scale'>
+                                    <Link href="#" className="menu-item text-md mx-1 text-slate-400 hover:text-slate-700">{item}</Link>
                                 </li>
                             ))}
                         </ul>
                     </div>
                     <div className='mx-auto'>
-                        <h4 className='text-2xl mb-2 text-black'>Company</h4>
+                        <h4 className='text-xl lg:text-2xl mb-2 text-black h-14 lg:h-10'>Terms & Condition</h4>
                         <ul>
-                            {['Home', 'Services', 'Projects', 'About', 'Contact'].map((item, index) => (
-                                <li key={index}>
-                                    <Link href="#" className="menu-item text-md mx-1 text-slate-400">{item}</Link>
+                            {['Privacy Policy', 'Terms of Service', 'Legal', 'Security', 'Sitemap'].map((item, index) => (
+                                <li key={index} className='hover-scale'>
+                                    <Link href="#" className="menu-item text-md mx-1 text-slate-400 hover:text-slate-700">{item}</Link>
                                 </li>
                             ))}
                         </ul>

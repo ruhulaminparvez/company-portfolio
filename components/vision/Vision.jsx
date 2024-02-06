@@ -8,16 +8,16 @@ const Vision = () => {
     return (
         <section className='px-5 lg:px-20 lg:py-12 bg-white'>
             {visionData.map((item, index) => (
-                <div key={index} className={`w-full flex flex-col-reverse py-20 lg:py-12 gap-8 ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                <div key={index} className={`w-full flex flex-col-reverse pt-20 lg:pt-0 lg:py-12 gap-8 ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                     <div className={`w-full lg:w-2/3`}>
                         <div className='w-full'>
                             <h3 className='text-3xl text-black'>{item.title}</h3>
                         </div>
-                        <p className='text-md my-6 text-justify pr-10 text-black'>{item.description}</p>
+                        <p className='text-xl my-6 text-justify pr-10 text-black'>{item.description}</p>
                         <div className='flex items-center justify-between'>
-                            <Link href='#' className='flex items-center gap-2 text-blue-400 hover:text-blue-500'>
-                                <span className='underline text-md'>Lets Get Started</span>
-                                <MdArrowForwardIos className='text-blue-400' />
+                            <Link href='#' className='flex items-center gap-2 btn btn-outline text-blue-400 hover:bg-blue-500 hover:border-0'>
+                                <span className='text-md'>Lets Get Started</span>
+                                <MdArrowForwardIos />
                             </Link>
                         </div>
                     </div>
