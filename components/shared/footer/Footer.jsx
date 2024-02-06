@@ -14,7 +14,7 @@ const Footer = () => {
                 <h2 className='text-5xl py-2 text-black'>Subscribe to our Newsletter</h2>
                 <div className='mt-5 flex items-center gap-2'>
                     <label className="form-control ">
-                        <input type="text" placeholder="Email" className="input input-bordered w-fit" />
+                        <input type="text" placeholder="Give Your Email Address" className="input input-bordered w-fit" />
                     </label>
                     <button className='btn bg-blue-500 rounded-full text-white hover:bg-blue-600 w-fit'>
                         <MdArrowForwardIos />
