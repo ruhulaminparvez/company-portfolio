@@ -15,7 +15,7 @@ const Vision = () => {
                         <div className='w-full'>
                             <h3 className='text-3xl font-semibold text-black mt-10 lg:mt-0'>{item.title}</h3>
                         </div>
-                        <p className='text-xl my-6 text-justify pr-10 text-slate-600 leading-8'>{item.description}</p>
+                        <p className='text-xl my-6 text-justify lg:pr-10 text-slate-600 leading-8'>{item.description}</p>
                         <div className='flex items-center justify-between'>
                             <Link href='#' className='flex items-center gap-2 btn btn-outline text-blue-400 hover:bg-blue-500 hover:border-0'>
                                 <span className='text-md'>Lets Get Started</span>
