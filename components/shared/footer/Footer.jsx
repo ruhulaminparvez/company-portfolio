@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <section className='px-20 py-10 w-full flex items-start bg-white'>
-            <div className='w-1/3'>
+        <section className='px-5 lg:px-20 lg:py-10 w-full lg:flex items-start bg-white'>
+            <div className='w-full px-8 lg:px-0 lg:w-1/3'>
                 <h2 className='text-5xl my-2 text-black'>Subscribe to our Newsletter</h2>
 
                 <div className='mt-5 flex items-center gap-2'>
@@ -17,8 +17,8 @@ const Footer = () => {
                     </button>
                 </div>
             </div>
-            <div className='w-2/3'>
-                <div className='grid grid-cols-3 my-2'>
+            <div className='w-full lg:w-2/3'>
+                <div className='grid grid-cols-3 my-8 lg:my-2'>
                     <div className='mx-auto'>
                         <h4 className='text-2xl mb-2 text-black'>Company</h4>
                         <ul>

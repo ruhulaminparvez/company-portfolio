@@ -6,10 +6,10 @@ import Link from 'next/link';
 
 const Vision = () => {
     return (
-        <section className='px-20 py-12 bg-white'>
+        <section className='px-5 lg:px-20 lg:py-12 bg-white'>
             {visionData.map((item, index) => (
-                <div key={index} className={`w-full flex my-12 gap-8 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                    <div className={`w-2/3`}>
+                <div key={index} className={`w-full flex flex-col-reverse my-20 lg:my-12 gap-8 ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                    <div className={`w-full lg:w-2/3`}>
                         <div className='w-full'>
                             <h3 className='text-3xl text-black'>{item.title}</h3>
                         </div>
@@ -21,7 +21,7 @@ const Vision = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className='w-1/3'>
+                    <div className='w-full lg:w-1/3'>
                         <Image src={item.image} alt={item.imageAlt} className='w-full h-72 rounded-md' />
                     </div>
                 </div>

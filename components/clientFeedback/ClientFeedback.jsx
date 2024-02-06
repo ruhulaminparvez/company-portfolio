@@ -6,12 +6,12 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const ClientFeedback = () => {
     return (
-        <section className='px-20 pt-20 bg-white'>
+        <section className='px-5 lg:px-20 pt-20 bg-white'>
             <div className='flex items-center flex-col'>
                 <h6 className='flex items-center gap-2 text-black'>Testimonials <HiArrowLongRight /></h6>
                 <h2 className='text-3xl my-2 text-black'>Hear from Our Clients</h2>
             </div>
-            <div className='grid grid-cols-2 gap-2 my-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-2 py-8 lg:py-5'>
                 {testimonialsData.map((item, index) => (
                     <div key={index}>
                         <div className='border rounded-md p-4'>

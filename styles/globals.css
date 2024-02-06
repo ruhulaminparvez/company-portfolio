@@ -34,5 +34,5 @@ body {
 
   .custom-hero-btn:hover {
     @apply bg-transparent;
-  } 
+  }
 }

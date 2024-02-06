@@ -17,7 +17,7 @@ const HeroSlider = () => {
     }, []);
     return (
         <Fragment>
-            <section className='w-full flex flex-col lg:flex-row px-5 lg:px-20 pt-16 lg:pt-5 bg-white'>
+            <section className='w-full flex flex-col-reverse lg:flex-row px-5 lg:px-20 pt-16 lg:pt-5 bg-white'>
                 <div className='w-full lg:w-1/2 flex items-start flex-col justify-center'>
                     <div className='bg-base-200 flex items-center gap-2 rounded-full p-1'>
                         <button className='custom-hero-btn'>We&apos;re hiring</button>
@@ -36,19 +36,11 @@ const HeroSlider = () => {
                         <button className='btn bg-blue-500 text-white hover:bg-transparent hover:border-blue-500 hover:text-blue-500 w-fit'>Get Started <HiArrowLongRight /></button>
                     </div>
                 </div>
-                <div className='w-full lg:w-1/2 carousel'>
+                <div className='w-full hidden lg:w-1/2 lg:carousel'>
                     {sliderData?.map((item, index) => (
-                        <div
-                            key={index + 1}
-                            className='carousel-item w-full'
-                            style={{ transform: `translateX(-${current * 100}%)`, transition: 'all 0.5s ease', height: '500px' }}
-                        >
-                            <Image
-                                src={item?.image}
-                                alt={item?.imageAlt}
-                                layout='responsive'
-                                width={500}
-                            />
+                        <div key={index + 1} className='carousel-item w-full'
+                            style={{ transform: `translateX(-${current * 100}%)`, transition: 'all 0.5s ease', height: '500px' }}>
+                            <Image src={item?.image} alt={item?.imageAlt} layout='responsive' width={500} />
                         </div>
                     ))}
                 </div>

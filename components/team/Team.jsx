@@ -7,15 +7,15 @@ import { FiInstagram } from "react-icons/fi";
 
 const Team = () => {
     return (
-        <section className='px-20 pt-20 bg-white'>
+        <section className='px-5 lg:px-20 pt-20 bg-white'>
             <div className='flex items-center flex-col'>
                 <h6 className='uppercase border-b-color-slate-400 border-b-4 text-black'>About Us</h6>
                 <h2 className='text-3xl my-2 text-center text-black'>
                     The Talented People Behind the Scenes
-                    <br /> of the Organization
+                    <br className='lg:inline-block hidden' /> of the Organization
                 </h2>
             </div>
-            <div className='grid grid-cols-4 gap-2 py-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-2 py-8 lg:py-5'>
                 {teamData.map((data, index) => (
                     <div key={index} className='shadow-md p-1 h-80'>
                         <div className='my-2'>
@@ -27,9 +27,9 @@ const Team = () => {
                             <p className='text-center text-slate-400'>{data.intro}</p>
                         </div>
                         <div className='flex item-center justify-center gap-4 mt-2'>
-                            <FiGithub className='text-2xl text-slate-400 hover:text-slate-500' />
-                            <FiTwitter className='text-2xl text-slate-400 hover:text-slate-500' />
-                            <FiInstagram className='text-2xl text-slate-400 hover:text-slate-500' />
+                            <FiGithub className='text-2xl text-slate-400 hover:text-slate-500 cursor-pointer' />
+                            <FiTwitter className='text-2xl text-slate-400 hover:text-slate-500 cursor-pointer' />
+                            <FiInstagram className='text-2xl text-slate-400 hover:text-slate-500 cursor-pointer' />
                         </div>
                     </div>
                 ))}
