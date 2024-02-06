@@ -9,7 +9,6 @@ const Navbar = () => {
     const [scrollY, setScrollY] = useState(0);
     const [showMenu, setShowMenu] = useState(false);
 
-
     useEffect(() => {
         const handleScroll = () => {
             setScrollY(window.scrollY);
@@ -21,7 +20,6 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
     return (
         <nav className={`navbar px-5 lg:px-20 ${scrollY > 100 ? 'shadow-md' : ''} sticky top-0 bg-white z-10`}>
             <div className="navbar-start">
