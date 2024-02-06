@@ -9,7 +9,7 @@ const Showcase = () => {
         <section className='px-5 lg:px-20 pt-20 bg-white'>
             <div className='flex items-center flex-col'>
                 <h6 className='uppercase border-b-color-slate-400 border-b-4 text-black'>Works</h6>
-                <h2 className='text-3xl my-2 text-black'>Discover our Projects and Works</h2>
+                <h2 className='text-3xl my-2 text-black text-center'>Discover our Projects and Works</h2>
                 <p className='text-slate-400 text-xl text-center'>
                     We have worked with various clients and companies to deliver the best results.
                 </p>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <section className='px-5 lg:px-20 lg:py-10 w-full lg:flex items-start bg-white'>
-            <div className='w-full px-8 lg:px-0 lg:w-1/3'>
+            <div className='w-full px-2 lg:px-0 lg:w-1/3'>
                 <h2 className='text-5xl my-2 text-black'>Subscribe to our Newsletter</h2>
 
                 <div className='mt-5 flex items-center gap-2'>
