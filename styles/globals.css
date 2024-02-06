@@ -35,6 +35,13 @@ body {
   .custom-hero-btn:hover {
     @apply bg-transparent;
   }
+
+  .card-hover:hover {
+    @apply shadow-lg;
+    scale: 1.05;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
 }
 
 .hover-scale:hover {

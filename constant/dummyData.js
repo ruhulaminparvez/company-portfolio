@@ -146,14 +146,14 @@ const visionData = [
         title: 'Design your application, product or service',
         image: localImages?.visionOne,
         imageAlt: 'Vision Image 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        description: 'Explore the endless possibilities of designing your application, product, or service with our intuitive tools. Unleash your creativity and bring your ideas to life effortlessly. Our platform empowers you to innovate and iterate, ensuring that your vision is realized with precision and excellence.'
     },
     {
         id: 2,
         title: 'Easily manage your business with our tools and services',
         image: localImages?.visionTwo,
         imageAlt: 'Vision Image 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        description: 'Simplify the complexities of managing your business operations with our comprehensive suite of tools and services. From streamlining workflows to optimizing resource allocation, we provide the solutions you need to drive efficiency and growth. With our user-friendly interface and robust features, you can navigate the challenges of entrepreneurship with confidence and ease.'
     }
 ];
 
